@@ -22,7 +22,7 @@ global.website = process.env.GURL || "https://whatsapp.com/channel/0029Vag1WQFJf
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/1f4e6e1cc2ed1662adb36.jpg";
 global.devs = "94789958225";
 global.sudo = process.env.SUDO || "94789958225,94757660788,94770730717,94785274495,94753574803";
-global.owner = process.env.OWNER_NUMBER || "94789958225,94753574803";
+global.owner = process.env.OWNER_NUMBER || "263788521064,263788521064";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "true";
@@ -48,15 +48,15 @@ global.SESSION_ID =
   ""
 module.exports = {
   menu: process.env.MENU || "",
-  HANDLERS: process.env.PREFIX || ".",
+  HANDLERS: process.env.PREFIX || "/",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
   caption: process.env.CAPTION || "𝗥𝗖𝗗 𝗠𝗗 𝗣𝗢𝗪𝗘𝗥 𝗕𝗬 🇱🇰",
   author: process.env.PACK_AUTHER || "𝐑𝐂𝐃",
   packname: process.env.PACK_NAME || "♥️",
   botname: process.env.BOT_NAME || "𝐑𝐂𝐃 𝐌𝐃",
-  ownername: process.env.OWNER_NAME || "𝗥𝗖𝗗 𝗧𝗘𝗔𝗠",
-  errorChat: process.env.ERROR_CHAT || "94789958225",
+  ownername: process.env.OWNER_NAME || "ASHLEY",
+  errorChat: process.env.ERROR_CHAT || "263788521064",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
